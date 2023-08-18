@@ -18,6 +18,7 @@ Forked from: https://worldle.teuteuf.fr !
 - https://en.wikipedia.org/wiki/Battle_of_St._George%27s_Caye
 - https://legionmagazine.com/en/five-battles-that-shaped-canada/
 - https://www.wearethemighty.com/history/one-of-largest-ever-tank-battles/
+- https://www.lookandlearn.com/history-images/M484732/Sea-battle-off-Port-Royal-during-the-capture-of-Jamaica-from-the-Spanish-by-a-British-fleet-commanded-by-Admiral
 
 **# TODO, RENAME BATTLES FOR COUNTRIES:**
 
