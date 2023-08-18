@@ -23,6 +23,8 @@ Forked from: https://worldle.teuteuf.fr !
 - https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk
 - https://www.lookandlearn.com/history-images/M484732/Sea-battle-off-Port-Royal-during-the-capture-of-Jamaica-from-the-Spanish-by-a-British-fleet-commanded-by-Admiral
 - http://www.devata.org/artistic-visions-of-angkor-by-maurice-fievet/#.XyigWB6SlH0
+- http://www.historyofwar.org/articles/battles_vardar1918.html
+- https://www.realclearhistory.com/articles/2017/12/05/top_10_battles_in_african_history__257.html
 - 
 
 **# TODO, RENAME BATTLES FOR COUNTRIES:**
