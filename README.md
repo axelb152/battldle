@@ -18,6 +18,9 @@ Forked from: https://worldle.teuteuf.fr !
 - https://en.wikipedia.org/wiki/Battle_of_St._George%27s_Caye
 - https://legionmagazine.com/en/five-battles-that-shaped-canada/
 - https://www.wearethemighty.com/history/one-of-largest-ever-tank-battles/
+- https://history-maps.com/story/Muslim-conquest-of-the-Levant
+- https://en.wikipedia.org/wiki/Battle_of_Sekigahara#:~:text=The%20Battle%20of%20Sekigahara%20was,regarded%20as%20the%20most%20important.
+- https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk
 
 **# TODO, RENAME BATTLES FOR COUNTRIES:**
 
