@@ -22,6 +22,8 @@ Forked from: https://worldle.teuteuf.fr !
 - https://en.wikipedia.org/wiki/Battle_of_Sekigahara#:~:text=The%20Battle%20of%20Sekigahara%20was,regarded%20as%20the%20most%20important.
 - https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk
 - https://www.lookandlearn.com/history-images/M484732/Sea-battle-off-Port-Royal-during-the-capture-of-Jamaica-from-the-Spanish-by-a-British-fleet-commanded-by-Admiral
+- http://www.devata.org/artistic-visions-of-angkor-by-maurice-fievet/#.XyigWB6SlH0
+- 
 
 **# TODO, RENAME BATTLES FOR COUNTRIES:**
 
