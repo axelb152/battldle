@@ -17,6 +17,7 @@ Forked from: https://worldle.teuteuf.fr !
 - https://en.wikipedia.org/wiki/First_Battle_of_Polotsk
 - https://en.wikipedia.org/wiki/Battle_of_St._George%27s_Caye
 - https://legionmagazine.com/en/five-battles-that-shaped-canada/
+- https://www.wearethemighty.com/history/one-of-largest-ever-tank-battles/
 
 **# TODO, RENAME BATTLES FOR COUNTRIES:**
 
@@ -25,10 +26,10 @@ Forked from: https://worldle.teuteuf.fr !
 - [x] C
 - [x] D
 - [x] E
-- [ ] F
-- [ ] G
-- [ ] H
-- [ ] I
+- [x] F
+- [x] G
+- [x] H
+- [x] I
 - [ ] J
 - [ ] K
 - [ ] L
