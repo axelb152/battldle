@@ -25,7 +25,7 @@ Forked from: https://worldle.teuteuf.fr !
 - http://www.devata.org/artistic-visions-of-angkor-by-maurice-fievet/#.XyigWB6SlH0
 - http://www.historyofwar.org/articles/battles_vardar1918.html
 - https://www.realclearhistory.com/articles/2017/12/05/top_10_battles_in_african_history__257.html
-- 
+-
 
 **# TODO, RENAME BATTLES FOR COUNTRIES:**
 
@@ -38,13 +38,13 @@ Forked from: https://worldle.teuteuf.fr !
 - [x] G
 - [x] H
 - [x] I
-- [ ] J
-- [ ] K
-- [ ] L
-- [ ] M
-- [ ] N
-- [ ] O
-- [ ] P
+- [x] J
+- [x] K
+- [x] L
+- [x] M
+- [x] N
+- [x] O
+- [x] P
 - [ ] Q
 - [ ] R
 - [ ] S
