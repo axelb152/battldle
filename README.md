@@ -47,7 +47,7 @@ Forked from: https://worldle.teuteuf.fr !
 - [x] P
 - [x] Q
 - [x] R
-- [ ] S
+- [x] S
 - [ ] T
 - [ ] U
 - [ ] V
