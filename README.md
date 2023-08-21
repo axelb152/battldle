@@ -50,11 +50,11 @@ Forked from: https://worldle.teuteuf.fr !
 - [x] Q
 - [x] R
 - [x] S
-- [ ] T
-- [ ] U
-- [ ] V
-- [ ] W
-- [ ] X
-- [ ] Y
-- [ ] Z
-- [ ] Remove countries with no notable battles (check notion)
+- [x] T
+- [x] U
+- [x] V
+- [x] W
+- [x] X
+- [x] Y
+- [x] Z
+- [x] Remove countries with no notable battles (check notion)
