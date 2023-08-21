@@ -19,13 +19,14 @@ Forked from: https://worldle.teuteuf.fr !
 - https://legionmagazine.com/en/five-battles-that-shaped-canada/
 - https://www.wearethemighty.com/history/one-of-largest-ever-tank-battles/
 - https://history-maps.com/story/Muslim-conquest-of-the-Levant
-- https://en.wikipedia.org/wiki/Battle_of_Sekigahara#:~:text=The%20Battle%20of%20Sekigahara%20was,regarded%20as%20the%20most%20important.
+- https://historycollection.com/strength-honor-greatest-samurai-battles-history/
 - https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk
 - https://www.lookandlearn.com/history-images/M484732/Sea-battle-off-Port-Royal-during-the-capture-of-Jamaica-from-the-Spanish-by-a-British-fleet-commanded-by-Admiral
 - http://www.devata.org/artistic-visions-of-angkor-by-maurice-fievet/#.XyigWB6SlH0
 - http://www.historyofwar.org/articles/battles_vardar1918.html
 - https://www.realclearhistory.com/articles/2017/12/05/top_10_battles_in_african_history__257.html
--
+- https://interestingengineering.com/culture/15-epic-battles-that-changed-the-course-of-history
+- 
 
 **# TODO, RENAME BATTLES FOR COUNTRIES:**
 
