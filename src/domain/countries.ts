@@ -407,7 +407,7 @@ export const countries: Country[] = [
     code: "BR",
     latitude: -14.235004,
     longitude: -51.92528,
-    name: "Siege of Caxias, 1823",
+    name: "Guararapes, 1649",
   },
   {
     code: "BS",
@@ -1250,15 +1250,15 @@ export const countries: Country[] = [
   { code: "TV", latitude: -7.109535, longitude: 177.64933, name: "Tuvalu" },
   { code: "TW", latitude: 23.69781, longitude: 120.960515, name: "Liaoluo Bay, 1633" },
   { code: "TZ", latitude: -6.369028, longitude: 34.888822, name: "Tanzania" },
-  { code: "UA", latitude: 48.379433, longitude: 31.16558, name: "Ukraine" },
-  { code: "UG", latitude: 1.373333, longitude: 32.290275, name: "Uganda" },
+  { code: "UA", latitude: 48.379433, longitude: 31.16558, name: "Kyiv, 2022" },
+  { code: "UG", latitude: 1.373333, longitude: 32.290275, name: "Lukaya, 1979" },
   {
     code: "US",
     latitude: 37.09024,
     longitude: -95.712891,
-    name: "United States",
+    name: "Gettysburg, 1863",
   },
-  { code: "UY", latitude: -32.522779, longitude: -55.765835, name: "Uruguay" },
+  { code: "UY", latitude: -32.522779, longitude: -55.765835, name: "Montevideo, 1823" },
   { code: "UZ", latitude: 41.377491, longitude: 64.585262, name: "Uzbekistan" },
   {
     code: "VA",

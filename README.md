@@ -26,6 +26,8 @@ Forked from: https://worldle.teuteuf.fr !
 - http://www.historyofwar.org/articles/battles_vardar1918.html
 - https://www.realclearhistory.com/articles/2017/12/05/top_10_battles_in_african_history__257.html
 - https://interestingengineering.com/culture/15-epic-battles-that-changed-the-course-of-history
+- https://en.wikipedia.org/wiki/Battle_of_Kyiv_(2022) _add charitable donations for ukraine guess?_
+- https://www.monitor.co.ug/uganda/magazines/people-power/how-battle-of-lukaya-shaped-war-between-uganda-tanzania-3339404
 - 
 
 **# TODO, RENAME BATTLES FOR COUNTRIES:**
