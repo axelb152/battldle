@@ -29,32 +29,39 @@ Forked from: https://worldle.teuteuf.fr !
 - https://www.monitor.co.ug/uganda/magazines/people-power/how-battle-of-lukaya-shaped-war-between-uganda-tanzania-3339404
 - 
 
-**# TODO, RENAME BATTLES FOR COUNTRIES:**
+# TODO
 
-- [x] A
-- [x] B
-- [x] C
-- [x] D
-- [x] E
-- [x] F
-- [x] G
-- [x] H
-- [x] I
-- [x] J
-- [x] K
-- [x] L
-- [x] M
-- [x] N
-- [x] O
-- [x] P
-- [x] Q
-- [x] R
-- [x] S
-- [x] T
-- [x] U
-- [x] V
-- [x] W
-- [x] X
-- [x] Y
-- [x] Z
-- [x] Remove countries with no notable battles (check notion)
+- [ ] Remove countries with no notable battles (check notion)
+- [ ] Remove fr internationalization
+- [ ] Sort out images
+- [ ] Rename UI from Worldle to Battldle (see components)
+- [ ] Check logic for reloading countries (currently per day)
+
+## Replace SVG's for countries:
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
+- [ ] E
+- [ ] F
+- [ ] G
+- [ ] H
+- [ ] I
+- [ ] J
+- [ ] K
+- [ ] L
+- [ ] M
+- [ ] N
+- [ ] O
+- [ ] P
+- [ ] Q
+- [ ] R
+- [ ] S
+- [ ] T
+- [ ] U
+- [ ] V
+- [ ] W
+- [ ] X
+- [ ] Y
+- [ ] Z
