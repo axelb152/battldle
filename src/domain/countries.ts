@@ -88,7 +88,6 @@ const countryCodesWithImage = [
   "tt",
   "at",
   "bd",
-  "bl",
   "cd",
   "do",
   "es",
