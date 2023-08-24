@@ -32,9 +32,8 @@ Forked from: https://worldle.teuteuf.fr !
 # TODO
 
 - [x] Remove countries with no notable battles (check notion)
-- [ ] Double check PR before merging
-- [ ] Remove fr internationalization
 - [ ] Sort out images
+- [ ] Remove fr internationalization
 - [ ] Rename UI from Worldle to Battldle (see components)
 - [ ] Check logic for reloading countries (currently per day)
 
