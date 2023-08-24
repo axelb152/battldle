@@ -4,7 +4,6 @@
 
 const countryCodesWithImage = [
   "ao",
-  "ax",
   "bg",
   "bo",
   "by",
@@ -162,20 +161,20 @@ export const countries: Country[] = [
     code: "AE",
     latitude: 23.424076,
     longitude: 53.847818,
-    name: "Dibba 633",
+    name: "Dibba 632-634 AD",
   },
-  { code: "AF", latitude: 33.93911, longitude: 67.709953, name: "Kabul, 2001" },
+  { code: "AF", latitude: 33.93911, longitude: 67.709953, name: "Wanat, 2008" },
   {
     code: "AL",
     latitude: 41.153332,
     longitude: 20.168331,
-    name: "Siege of Pelium, 335 BC",
+    name: "Albulena 1457",
   },
   {
     code: "AM",
     latitude: 40.069099,
     longitude: 45.038189,
-    name: "Alexandropol, 1920",
+    name: "Sardarabad, 1918",
   },
   {
     code: "AO",
@@ -195,7 +194,12 @@ export const countries: Country[] = [
     longitude: -170.132217,
     name: "Samoan Crisis, 1887-9",
   },
-  { code: "AT", latitude: 47.516231, longitude: 14.550072, name: "Hard, 1499" },
+  {
+    code: "AT",
+    latitude: 47.516231,
+    longitude: 14.550072,
+    name: "Austerlitz, 1805",
+  },
   {
     code: "AU",
     latitude: -25.274398,
