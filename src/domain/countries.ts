@@ -26,8 +26,6 @@ const countryCodesWithImage = [
   "ug",
   "ae",
   "az",
-  "bh",
-  "bq",
   "bz",
   "cu",
   "eg",
@@ -91,7 +89,6 @@ const countryCodesWithImage = [
   "at",
   "bd",
   "bl",
-  "bt",
   "cd",
   "do",
   "es",
@@ -231,12 +228,6 @@ export const countries: Country[] = [
     longitude: 25.48583,
     name: "Plevna, 1877",
   },
-  {
-    code: "BH",
-    latitude: 25.930414,
-    longitude: 50.637772,
-    name: "Siege of Bahrain, 1559",
-  },
   { code: "BJ", latitude: 9.30769, longitude: 2.315834, name: "Benin, 1897" },
   {
     code: "BN",
@@ -257,16 +248,10 @@ export const countries: Country[] = [
     name: "Guararapes, 1649",
   },
   {
-    code: "BT",
-    latitude: 27.514162,
-    longitude: 90.433601,
-    name: "Five Llamas, 1634",
-  },
-  {
     code: "BW",
     latitude: -22.328474,
     longitude: 24.684866,
-    name: "Dimawe, 1852",
+    name: "Elands River, 1901",
   },
   {
     code: "BY",
