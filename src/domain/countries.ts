@@ -30,7 +30,6 @@ const countryCodesWithImage = [
   "fk",
   "gp",
   "ir",
-  "kg",
   "kw",
   "lk",
   "ma",
@@ -491,7 +490,7 @@ export const countries: Country[] = [
     code: "KH",
     latitude: 12.565679,
     longitude: 104.990963,
-    name: "Fall of Angkor, 1431",
+    name: "Fall of Phnom Penh, 1975",
   },
   {
     code: "KI",
