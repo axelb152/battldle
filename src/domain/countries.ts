@@ -13,7 +13,6 @@ const countryCodesWithImage = [
   "ge",
   "hu",
   "iq",
-  "ke",
   "kr",
   "ly",
   "mk",
@@ -31,7 +30,6 @@ const countryCodesWithImage = [
   "fk",
   "gp",
   "ir",
-  "kg",
   "kw",
   "lk",
   "ma",
@@ -91,7 +89,6 @@ const countryCodesWithImage = [
   "do",
   "es",
   "gi",
-  "jm",
   "la",
   "lt",
   "mo",
@@ -461,7 +458,7 @@ export const countries: Country[] = [
     code: "IL",
     latitude: 31.046051,
     longitude: 34.851612,
-    name: "Jerusalem, 1187",
+    name: "Siege of Jerusalem, 1187",
   },
   { code: "IN", latitude: 20.593684, longitude: 78.96288, name: "Diu, 1509" },
   {
@@ -482,12 +479,6 @@ export const countries: Country[] = [
     longitude: 12.56738,
     name: "Cannae, 216 BC",
   },
-  {
-    code: "JM",
-    latitude: 18.109581,
-    longitude: -77.297508,
-    name: "Capture of Jamaica, 1655",
-  },
   { code: "JO", latitude: 30.585164, longitude: 36.238414, name: "Fahl, 634" },
   {
     code: "JP",
@@ -496,16 +487,10 @@ export const countries: Country[] = [
     name: "Sekigahara, 1600",
   },
   {
-    code: "KE",
-    latitude: -0.023559,
-    longitude: 37.906193,
-    name: "Siege of Mombasa, 1696",
-  },
-  {
     code: "KH",
     latitude: 12.565679,
     longitude: 104.990963,
-    name: "Fall of Angkor, 1431",
+    name: "Fall of Phnom Penh, 1975",
   },
   {
     code: "KI",
