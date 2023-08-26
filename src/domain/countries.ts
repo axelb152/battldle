@@ -461,7 +461,7 @@ export const countries: Country[] = [
     code: "IL",
     latitude: 31.046051,
     longitude: 34.851612,
-    name: "Jerusalem, 1187",
+    name: "Siege of Jerusalem, 1187",
   },
   { code: "IN", latitude: 20.593684, longitude: 78.96288, name: "Diu, 1509" },
   {
@@ -486,7 +486,7 @@ export const countries: Country[] = [
     code: "JM",
     latitude: 18.109581,
     longitude: -77.297508,
-    name: "Capture of Jamaica, 1655",
+    name: "Rio Nuevo, 1658",
   },
   { code: "JO", latitude: 30.585164, longitude: 36.238414, name: "Fahl, 634" },
   {
