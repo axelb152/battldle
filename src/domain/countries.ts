@@ -351,7 +351,7 @@ export const countries: Country[] = [
     code: "EG",
     latitude: 26.820553,
     longitude: 30.802498,
-    name: "Alexandria, 48 BC",
+    name: "Siege of Alexandria, 47 BC",
   },
   {
     code: "ES",
