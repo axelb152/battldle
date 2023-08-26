@@ -8,7 +8,6 @@ const countryCodesWithImage = [
   "bo",
   "by",
   "ch",
-  "cr",
   "de",
   "ee",
   "ge",
@@ -299,12 +298,6 @@ export const countries: Country[] = [
     latitude: 35.86166,
     longitude: 104.195397,
     name: "Red Cliffs, 208",
-  },
-  {
-    code: "CR",
-    latitude: 9.748917,
-    longitude: -83.753428,
-    name: "Santa Rosa, 1855",
   },
   {
     code: "CU",
