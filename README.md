@@ -41,18 +41,18 @@ Forked from: https://worldle.teuteuf.fr !
 
 - [x] A
 - [x] B
-- [ ] C
-- [ ] D
-- [ ] E
-- [ ] F
-- [ ] G
-- [ ] H
-- [ ] I
-- [ ] J
-- [ ] K
-- [ ] L
-- [ ] M
-- [ ] N
+- [x] C
+- [x] D
+- [x] E
+- [x] F
+- [x] G
+- [x] H
+- [x] I
+- [x] J
+- [x] K
+- [x] L
+- [x] M
+- [x] N
 - [ ] O
 - [ ] P
 - [ ] Q
