@@ -26,29 +26,6 @@ const resources = {
       buyMeACoffee: "Buy me a ☕!",
     },
   },
-  fr: {
-    translation: {
-      placeholder: "Pays, territoires...",
-      guess: "Deviner",
-      share: "Partager",
-      showOnGoogleMaps: "👀 sur Google Maps",
-      welldone: "Bien joué !",
-      unknownCountry: "Pays inconnu !",
-      copy: "Résultat copié !",
-      showCountry: "🗺️ Afficher la carte !",
-      cancelRotation: "🌀 Annule la rotation",
-      settings: {
-        title: "Paramètres",
-        distanceUnit: "Unité de distance",
-        theme: "Thème",
-        difficultyModifiers: "Modificateurs de difficulté",
-        startingNextDay: "A partir du lendemain !",
-        noImageMode: "Cache l'image du pays pour plus de challenge.",
-        rotationMode: "Tourne l'image du pays de manière aléatoire.",
-      },
-      buyMeACoffee: "Offrez moi un ☕ !",
-    },
-  },
 };
 
 i18n
