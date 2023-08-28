@@ -54,6 +54,7 @@ const countryCodesWithImage = [
   "pr",
   "rs",
   "se",
+  "ps",
   "sm",
   "sx",
   "th",
@@ -638,7 +639,7 @@ export const countries: Country[] = [
     code: "PG",
     latitude: -6.314993,
     longitude: 143.95555,
-    name: "The Bismarck Sea, 1942",
+    name: "The Bismarck Sea, 1943",
   },
   {
     code: "PH",
