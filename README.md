@@ -53,7 +53,7 @@ Forked from: https://worldle.teuteuf.fr !
 - [x] L
 - [x] M
 - [x] N
-- [ ] O
+- [x] O
 - [ ] P
 - [ ] Q
 - [ ] R
