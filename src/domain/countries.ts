@@ -731,7 +731,7 @@ export const countries: Country[] = [
     code: "SK",
     latitude: 48.669026,
     longitude: 19.699024,
-    name: "Pressburg 907",
+    name: "Pressburg, 907",
   },
   {
     code: "SM",
