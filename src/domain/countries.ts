@@ -773,7 +773,7 @@ export const countries: Country[] = [
     code: "TR",
     latitude: 38.963745,
     longitude: 35.243322,
-    name: "Antioch, 1098",
+    name: "Siege of Antioch, 1098",
   },
   {
     code: "TT",
