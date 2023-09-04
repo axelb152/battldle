@@ -702,12 +702,6 @@ export const countries: Country[] = [
     name: "Stalingrad, 1942",
   },
   {
-    code: "RW",
-    latitude: -1.940278,
-    longitude: 29.873888,
-    name: "Kigali, 1994",
-  },
-  {
     code: "SA",
     latitude: 23.885942,
     longitude: 45.079162,
@@ -737,7 +731,7 @@ export const countries: Country[] = [
     code: "SK",
     latitude: 48.669026,
     longitude: 19.699024,
-    name: "Pressburg 907",
+    name: "Pressburg, 907",
   },
   {
     code: "SM",
