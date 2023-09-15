@@ -63,6 +63,6 @@ Forked from: https://worldle.teuteuf.fr !
 - [ ] U
 - [ ] V
 - [ ] W
-- [ ] X
-- [ ] Y
-- [ ] Z
+- [x] X
+- [x] Y
+- [x] Z
