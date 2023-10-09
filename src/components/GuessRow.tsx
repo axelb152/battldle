@@ -106,7 +106,7 @@ export function GuessRow({ guess, settingsData }: GuessRowProps) {
           </div>
           <div className="flex items-center justify-center border-2 h-8 col-span-1 animate-reveal">
             {guess?.distance === 0
-              ? "🎉"
+              ? "⚔️"
               : guess && DIRECTION_ARROWS[guess.direction]}
           </div>
           <div className="flex items-center justify-center border-2 h-8 col-span-1 animate-reveal animate-pop">
