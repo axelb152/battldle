@@ -81,7 +81,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Prochain essai, <span className="uppercase font-bold">Liban</span>,
-            c&apos;est le pays à deviner ! Bien joué ! 🎉
+            c&apos;est le pays à deviner ! Bien joué ⚔️
           </div>
         </div>
       </div>

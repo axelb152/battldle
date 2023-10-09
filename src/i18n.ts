@@ -32,7 +32,7 @@ const resources = {
       guess: "Deviner",
       share: "Partager",
       showOnGoogle: "⚔️ sur Google",
-      welldone: "Bien joué !",
+      welldone: "Bien joué ⚔️",
       unknownCountry: "Bataille inconnu !",
       copy: "Résultat copié !",
       showCountry: "🗺️ Montrer la carte !",
