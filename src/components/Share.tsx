@@ -44,7 +44,7 @@ export function Share({
       : rotationMode
       ? " 🌀"
       : "";
-    const title = `#Worldle #${dayCount} ${guessCount}/6${difficultyModifierEmoji}`;
+    const title = `#Battldle #${dayCount} ${guessCount}/6${difficultyModifierEmoji}`;
 
     const guessString = guesses
       .map((guess) => {
@@ -66,7 +66,7 @@ export function Share({
         format: "text/plain",
       }}
     >
-      <button className="border-2 px-4 uppercase bg-green-600 hover:bg-green-500 active:bg-green-700 text-white w-full">
+      <button className="border-2 px-4 uppercase bg-red-600 hover:bg-red-500 active:bg-red-700 text-white w-full">
         {t("share")}
       </button>
     </CopyToClipboard>
