@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/battldle/static/css/main.602c6392.css",
-    "main.js": "/battldle/static/js/main.bc62c6c1.js",
+    "main.js": "/battldle/static/js/main.dd603452.js",
     "static/js/787.40ea2d72.chunk.js": "/battldle/static/js/787.40ea2d72.chunk.js",
     "index.html": "/battldle/index.html",
     "main.602c6392.css.map": "/battldle/static/css/main.602c6392.css.map",
-    "main.bc62c6c1.js.map": "/battldle/static/js/main.bc62c6c1.js.map",
+    "main.dd603452.js.map": "/battldle/static/js/main.dd603452.js.map",
     "787.40ea2d72.chunk.js.map": "/battldle/static/js/787.40ea2d72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.602c6392.css",
-    "static/js/main.bc62c6c1.js"
+    "static/js/main.dd603452.js"
   ]
 }
