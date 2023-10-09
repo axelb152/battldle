@@ -18,10 +18,13 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         <div>
           Guess the <Worldle /> in 6 guesses.
         </div>
-        <div>Each guess is a famous battle that occured in that country, ...</div>
+        <div>
+          Each guess is a famous battle that occured in that country, ...
+        </div>
         <div>
           After each guess, you will have the distance, the direction and the
-          proximity from your guess and the target battle, in which country the battle occured.
+          proximity from your guess and the target battle, in which country ...
+          the battle occured.
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
