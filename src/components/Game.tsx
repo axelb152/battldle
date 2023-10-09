@@ -166,7 +166,7 @@ export function Game({ settingsData }: GameProps) {
                 className="border-2 uppercase my-0.5 hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-slate-800 dark:active:bg-slate-700"
                 type="submit"
               >
-                🌍 {t("guess")}
+                ⚔️ {t("guess")}
               </button>
             </div>
           </form>
