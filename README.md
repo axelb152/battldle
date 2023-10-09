@@ -32,37 +32,8 @@ Forked from: https://worldle.teuteuf.fr !
 # TODO
 
 - [x] Remove countries with no notable battles (check notion)
-- [ ] Sort out images
+- [x] Sort out images
 - [ ] Double check array in countries, check all country codes are there
 - [ ] Rename UI from Worldle to Battldle (see components)
 - [ ] Check logic for reloading countries (currently per day)
 - [ ] Remove fr internationalization (simply update with battle translations?)
-
-## Replace SVG's for countries:
-
-- [x] A
-- [x] B
-- [x] C
-- [x] D
-- [x] E
-- [x] F
-- [x] G
-- [x] H
-- [x] I
-- [x] J
-- [x] K
-- [x] L
-- [x] M
-- [x] N
-- [x] O
-- [x] P
-- [x] Q
-- [x] R
-- [x] S
-- [x] T
-- [ ] U
-- [ ] V
-- [x] W
-- [x] X
-- [x] Y
-- [x] Z
