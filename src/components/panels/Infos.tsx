@@ -18,13 +18,11 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         <div>
           Guess the <Worldle /> in 6 guesses.
         </div>
-        <div>
-          Each guess is a famous battle that occured in that country, ...
-        </div>
+        <div>Each guess is a famous battle that occured in that country.</div>
         <div>
           After each guess, you will have the distance, the direction and the
-          proximity from your guess and the target battle, in which country ...
-          the battle occured.
+          proximity from your guess and the target battle, in which country the
+          battle occured.
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
@@ -34,7 +32,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Chile",
+                name: "Chacabuco, 1817",
                 direction: "NE",
                 distance: 13_557_000,
               },
@@ -42,11 +40,11 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your guess <span className="uppercase font-bold">Chile</span> is{" "}
+            Your guess{" "}
+            <span className="uppercase font-bold">Chacabuco, 1817</span> is{" "}
             {formatDistance(13557000, settingsData.distanceUnit)} away from the
-            target country, the target country is in the North-East direction
-            and you have a only 32% of proximity because it&apos;s quite far
-            away!
+            target battle, the target battle is in the North-East direction and
+            you have a only 32% of proximity because it&apos;s quite far away!
           </div>
         </div>
         <div>
@@ -54,7 +52,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Finland",
+                name: "Tali-Ihantala, 1944",
                 direction: "SE",
                 distance: 3_206_000,
               },
@@ -63,9 +61,9 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Your second guess{" "}
-            <span className="uppercase font-bold">Finland</span> is getting
-            closer! {formatDistance(3206000, settingsData.distanceUnit)} away,
-            South-East direction and 84%!
+            <span className="uppercase font-bold">Tali-Ihantala, 1944</span> is
+            getting closer! {formatDistance(3206000, settingsData.distanceUnit)}{" "}
+            away, South-East direction and 84%!
           </div>
         </div>
         <div>
@@ -73,7 +71,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Lebanon",
+                name: "Siege of Beirut, 1982",
                 direction: "N",
                 distance: 0,
               },
@@ -81,24 +79,21 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Next guess, <span className="uppercase font-bold">Lebanon</span>,
-            it&apos;s the country to guess! Congrats! 🎉
+            Next guess,{" "}
+            <span className="uppercase font-bold">Siege of Beirut, 1982</span>,
+            it&apos;s the correct battle. Well done ⚔️
           </div>
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        A new <Worldle /> will be available every day!
+        A new <Worldle /> will be available every day
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div className="font-bold">About distance</div>
         <div>
           The distances displayed correspond to the distances between the
-          selected and the target territory centers.
-        </div>
-        <div>
-          For instance, the computed distance between United States and Canada
-          is around {formatDistance(2_260_000, settingsData.distanceUnit)} even
-          if they have a common border.
+          selected and the approximate battlefield coordinates. These are simply
+          an approximate for the purposes of the game.
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
@@ -106,36 +101,36 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         by{" "}
         <a
           className="underline"
-          href="https://www.powerlanguage.co.uk/wordle/"
+          href="https://worldle.teuteuf.fr/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Wordle
+          🌍 Worldle
         </a>{" "}
         created by{" "}
         <a
           className="underline"
-          href="https://twitter.com/powerlanguish"
+          href="https://twitter.com/teuteuf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Josh Wardle (@powerlanguish)
+          @teuteuf
         </a>
         .
       </div>
       <div className="space-y-3 text-justify pb-3">
         <div>
-          Made by{" "}
+          Forked by{" "}
           <a
             className="underline"
-            href="https://twitter.com/teuteuf"
+            href="https://github.com/axelb152"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @teuteuf
+            @axelb152
           </a>
         </div>
-        <div>
+        {/* <div>
           Want to support?{" "}
           <a
             className="underline"
@@ -145,7 +140,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           >
             Buy me a coffee! ☕
           </a>
-        </div>
+        </div> */}
       </div>
     </Panel>
   );
