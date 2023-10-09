@@ -806,12 +806,6 @@ export const countries: Country[] = [
     name: "Gettysburg, 1863",
   },
   {
-    code: "UY",
-    latitude: -32.522779,
-    longitude: -55.765835,
-    name: "Montevideo, 1823",
-  },
-  {
     code: "VN",
     latitude: 14.058324,
     longitude: 108.277199,
