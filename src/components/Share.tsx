@@ -53,7 +53,9 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString, "https://worldle.teuteuf.fr"].join("\n");
+    return [title, guessString, "https://axelb152.github.io/battldle"].join(
+      "\n"
+    );
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
   return (
