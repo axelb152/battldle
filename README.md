@@ -4,7 +4,7 @@ Forked from: https://worldle.teuteuf.fr !
 
 ### DISCLAIMER
 
-Thank you for exploring my military-themed puzzle game. I want to emphatically express that although this game is set against the backdrop of historical battles, I do not condone, nor do I want to, glorify war and violence in any manner. The intention behind creating this game is not to celebrate conflict but to offer an engaging game, intertwined with historical contexts, without advocating for violence. I recognize war as a painful and distressing part of our shared history and the game is intended to stimulate similar skills used in popular games like wordle, worldle, angle etc etc while respecting the real-world implications of military conflicts. As you navigate through your guesses, I hope you enjoy the challenge whilst also keeping a mindful perspective on the larger themes of history and peace.
+Thank you for exploring my military-themed guessing game. I want to emphatically express that although this game is set against the backdrop of historical battles, I do not condone war and violence in any manner. The intention behind creating this game is not to celebrate nor condone conflict but to offer an engaging game, intertwined with historical contexts, without advocating for violence. I recognize war as a painful and distressing part of our shared history and the game is intended to stimulate similar skills used in popular games like wordle, worldle, angle etc etc while respecting the real-world implications of military conflicts. As you navigate through your guesses, I hope you enjoy the challenge whilst also keeping a mindful perspective on the larger themes of history and peace.
 
 Make games not war: https://worldbeyondwar.org/donate/
 
