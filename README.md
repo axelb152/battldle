@@ -8,12 +8,6 @@ Thank you for exploring my military-themed guessing game. I want to emphatically
 
 Make games not war: https://worldbeyondwar.org/donate/
 
-## Original Worldle Resources used:
-
-- Battles with long/lat => https://developers.google.com/public-data/docs/canonical/battles_csv
-- Battle images => https://github.com/djaiss/mapsicon
-- French battle names => https://fr.wikipedia.org/wiki/ISO_3166
-
 ## Battldle Resources used:
 
 - https://en.wikipedia.org/wiki/List_of_battles_by_geographic_location
@@ -39,8 +33,10 @@ Make games not war: https://worldbeyondwar.org/donate/
 
 - [x] Remove battles with no notable battles (check notion)
 - [x] Sort out images
-- [x] Rename UI from Worldle to Battldle (see components)
+- [x] Rename UI from Worldle to Battldle
 - [x] update `guessString` function in `src/components/Share.tsx` with correct url
+- [x] fix metadata
+- [x] fix share component's start date
 - [ ] Double check array in battles, check all battle codes are there
-- [ ] Check logic for reloading battles (currently per day)
+- [x] Check logic for reloading battles (currently per day)
 - [ ] Remove fr internationalization (simply update with battle translations?)
