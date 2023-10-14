@@ -77,14 +77,14 @@ function App() {
           </header>
           <Game settingsData={settingsData} />
           <footer className="flex justify-center text-sm mt-8 mb-1">
-            ❤️ <Worldle />? -
+            ❤️ <Worldle /> ? -
             <a
               className="underline pl-1"
-              href="https://www.ko-fi.com/teuteuf"
+              href="https://worldle.teuteuf.fr/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t("buyMeACoffee")}
+              {t("Check out Worldle 🌍")}
             </a>
           </footer>
         </div>
