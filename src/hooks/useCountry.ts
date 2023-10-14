@@ -2,33 +2,17 @@ import { useMemo } from "react";
 import seedrandom from "seedrandom";
 import { countriesWithImage, Country } from "../domain/countries";
 
-const forcedCountries: Record<string, string> = {
-  "2022-02-02": "TD",
-  "2022-02-03": "PY",
-};
+export function useCountry(): [Country, number, number] {
+  // Use the current time as a unique seed
+  const seed = new Date().getTime().toString();
 
-export function useCountry(dayString: string): [Country, number, number] {
   const country = useMemo(() => {
-    const forcedCountryCode = forcedCountries[dayString];
-    const forcedCountry =
-      forcedCountryCode != null
-        ? countriesWithImage.find(
-            (country) => country.code === forcedCountryCode
-          )
-        : undefined;
+    return countriesWithImage[
+      Math.floor(seedrandom.alea(seed)() * countriesWithImage.length)
+    ];
+  }, [seed]);
 
-    return (
-      forcedCountry ??
-      countriesWithImage[
-        Math.floor(seedrandom.alea(dayString)() * countriesWithImage.length)
-      ]
-    );
-  }, [dayString]);
-
-  const randomAngle = useMemo(
-    () => seedrandom.alea(dayString)() * 360,
-    [dayString]
-  );
+  const randomAngle = useMemo(() => seedrandom.alea(seed)() * 360, [seed]);
 
   const imageScale = useMemo(() => {
     const normalizedAngle = 45 - (randomAngle % 90);

@@ -28,20 +28,21 @@ interface GameProps {
 
 export function Game({ settingsData }: GameProps) {
   const { t, i18n } = useTranslation();
-  const dayString = useMemo(getDayString, []);
+  // const dayString = useMemo(getDayString, []);
 
-  const [country, randomAngle, imageScale] = useCountry(dayString);
+  const [country, randomAngle, imageScale] = useCountry();
 
   const [currentGuess, setCurrentGuess] = useState("");
-  const [guesses, addGuess] = useGuesses(dayString);
+  const guessSeed = new Date().toISOString();
+  const [guesses, addGuess] = useGuesses(guessSeed);
   const [hideImageMode, setHideImageMode] = useMode(
     "hideImageMode",
-    dayString,
+    guessSeed,
     settingsData.noImageMode
   );
   const [rotationMode, setRotationMode] = useMode(
     "rotationMode",
-    dayString,
+    guessSeed,
     settingsData.rotationMode
   );
 
@@ -138,7 +139,7 @@ export function Game({ settingsData }: GameProps) {
           <>
             <Share
               guesses={guesses}
-              dayString={dayString}
+              dayString={guessSeed}
               settingsData={settingsData}
               hideImageMode={hideImageMode}
               rotationMode={rotationMode}
