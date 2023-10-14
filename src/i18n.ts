@@ -5,12 +5,12 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      placeholder: "Country, territory...",
+      placeholder: "Battle, territory...",
       guess: "Guess",
       share: "Share",
       showOnGoogle: "⚔️ on Google",
       welldone: "Well done!",
-      unknownCountry: "Unknown country!",
+      unknownBattle: "Unknown battle!",
       copy: "Copied results to clipboard",
       showBattle: "🗺️ Show battle",
       cancelRotation: "🌀 Cancel rotation",
@@ -21,7 +21,7 @@ const resources = {
         difficultyModifiers: "Difficulty modifiers",
         startingNextDay: "Starting the next day!",
         noImageMode: "Hide battle image for more of a challenge.",
-        rotationMode: "Rotate randomly country image.",
+        rotationMode: "Rotate randomly battle image.",
       },
       buyMeACoffee: "Enjoying this game? Checkout the original",
     },
@@ -33,7 +33,7 @@ const resources = {
       share: "Partager",
       showOnGoogle: "⚔️ sur Google",
       welldone: "Bien joué ⚔️",
-      unknownCountry: "Bataille inconnu !",
+      unknownBattle: "Bataille inconnu !",
       copy: "Résultat copié !",
       showBattle: "🗺️ Montrer la bataille",
       cancelRotation: "🌀 Annule la rotation",

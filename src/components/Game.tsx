@@ -1,20 +1,16 @@
 import { DateTime } from "luxon";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { toast } from "react-toastify";
-import {
-  countries,
-  getCountryName,
-  sanitizeCountryName,
-} from "../domain/countries";
+import { battles, getBattleName, sanitizeBattleName } from "../domain/battles";
 import { useGuesses } from "../hooks/useGuesses";
-import { CountryInput } from "./CountryInput";
+import { BattleInput } from "./BattleInput";
 import * as geolib from "geolib";
 import { Share } from "./Share";
 import { Guesses } from "./Guesses";
 import { useTranslation } from "react-i18next";
 import { SettingsData } from "../hooks/useSettings";
 import { useMode } from "../hooks/useMode";
-import { useCountry } from "../hooks/useCountry";
+import { useBattle } from "../hooks/useBattle";
 
 function getDayString() {
   return DateTime.now().toFormat("yyyy-MM-dd");
@@ -30,7 +26,7 @@ export function Game({ settingsData }: GameProps) {
   const { t, i18n } = useTranslation();
   const dayString = useMemo(getDayString, []);
 
-  const [country, randomAngle, imageScale] = useCountry(dayString);
+  const [battle, randomAngle, imageScale] = useBattle(dayString);
 
   const [currentGuess, setCurrentGuess] = useState("");
   const [guesses, addGuess] = useGuesses(dayString);
@@ -52,22 +48,21 @@ export function Game({ settingsData }: GameProps) {
   const handleSubmit = useCallback(
     (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
-      const guessedCountry = countries.find(
-        (country) =>
-          sanitizeCountryName(
-            getCountryName(i18n.resolvedLanguage, country)
-          ) === sanitizeCountryName(currentGuess)
+      const guessedBattle = battles.find(
+        (battle) =>
+          sanitizeBattleName(getBattleName(i18n.resolvedLanguage, battle)) ===
+          sanitizeBattleName(currentGuess)
       );
 
-      if (guessedCountry == null) {
-        toast.error(t("unknownCountry"));
+      if (guessedBattle == null) {
+        toast.error(t("unknownBattle"));
         return;
       }
 
       const newGuess = {
         name: currentGuess,
-        distance: geolib.getDistance(guessedCountry, country),
-        direction: geolib.getCompassDirection(guessedCountry, country),
+        distance: geolib.getDistance(guessedBattle, battle),
+        direction: geolib.getCompassDirection(guessedBattle, battle),
       };
 
       addGuess(newGuess);
@@ -77,7 +72,7 @@ export function Game({ settingsData }: GameProps) {
         toast.success(t("welldone"), { delay: 2000 });
       }
     },
-    [addGuess, country, currentGuess, i18n.resolvedLanguage, t]
+    [addGuess, battle, currentGuess, i18n.resolvedLanguage, t]
   );
 
   useEffect(() => {
@@ -85,12 +80,12 @@ export function Game({ settingsData }: GameProps) {
       guesses.length === MAX_TRY_COUNT &&
       guesses[guesses.length - 1].distance > 0
     ) {
-      toast.info(getCountryName(i18n.resolvedLanguage, country).toUpperCase(), {
+      toast.info(getBattleName(i18n.resolvedLanguage, battle).toUpperCase(), {
         autoClose: false,
         delay: 2000,
       });
     }
-  }, [country, guesses, i18n.resolvedLanguage]);
+  }, [battle, guesses, i18n.resolvedLanguage]);
 
   return (
     <div className="flex-grow flex flex-col mx-2">
@@ -108,8 +103,8 @@ export function Game({ settingsData }: GameProps) {
           className={`max-h-52 m-auto transition-transform duration-700 ease-in ${
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
-          alt="country to guess"
-          src={`images/countries/${country.code.toLowerCase()}/battle.png`}
+          alt="battle to guess"
+          src={`images/battles/${battle.code.toLowerCase()}/battle.png`}
           style={
             rotationMode && !gameEnded
               ? {
@@ -145,9 +140,9 @@ export function Game({ settingsData }: GameProps) {
             />
             <a
               className="underline w-full text-center block mt-4"
-              href={`https://www.google.com/search?q=${getCountryName(
+              href={`https://www.google.com/search?q=${getBattleName(
                 i18n.resolvedLanguage,
-                country
+                battle
               )}&hl=${i18n.resolvedLanguage}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -158,7 +153,7 @@ export function Game({ settingsData }: GameProps) {
         ) : (
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col">
-              <CountryInput
+              <BattleInput
                 currentGuess={currentGuess}
                 setCurrentGuess={setCurrentGuess}
               />

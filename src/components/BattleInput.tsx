@@ -2,21 +2,17 @@ import { t } from "i18next";
 import React, { useState } from "react";
 import Autosuggest from "react-autosuggest";
 import { useTranslation } from "react-i18next";
-import {
-  countries,
-  getCountryName,
-  sanitizeCountryName,
-} from "../domain/countries";
+import { battles, getBattleName, sanitizeBattleName } from "../domain/battles";
 
-interface CountryInputProps {
+interface BattleInputProps {
   currentGuess: string;
   setCurrentGuess: (guess: string) => void;
 }
 
-export function CountryInput({
+export function BattleInput({
   currentGuess,
   setCurrentGuess,
-}: CountryInputProps) {
+}: BattleInputProps) {
   const [suggestions, setSuggestions] = useState<string[]>([]);
 
   const { i18n } = useTranslation();
@@ -26,12 +22,10 @@ export function CountryInput({
       suggestions={suggestions}
       onSuggestionsFetchRequested={({ value }) =>
         setSuggestions(
-          countries
-            .map((c) => getCountryName(i18n.resolvedLanguage, c).toUpperCase())
-            .filter((countryName) =>
-              sanitizeCountryName(countryName).includes(
-                sanitizeCountryName(value)
-              )
+          battles
+            .map((c) => getBattleName(i18n.resolvedLanguage, c).toUpperCase())
+            .filter((battleName) =>
+              sanitizeBattleName(battleName).includes(sanitizeBattleName(value))
             )
         )
       }
