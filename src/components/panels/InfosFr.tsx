@@ -1,7 +1,7 @@
 import { Guesses } from "../Guesses";
 import { Panel } from "./Panel";
 import React from "react";
-import { Worldle } from "../Worldle";
+import { Battldle } from "../Battldle";
 import { formatDistance } from "../../domain/geography";
 import { SettingsData } from "../../hooks/useSettings";
 
@@ -16,7 +16,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
     <Panel title="Comment jouer" isOpen={isOpen} close={close}>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div>
-          Devine le <Worldle /> en 6 essais.
+          Devine le <Battldle /> en 6 essais.
         </div>
         <div>
           Chaque essai est une bataille célèbre qui a eu lieu dans ce pays.
@@ -29,7 +29,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
       </div>
       {/* ... similar adjustments for examples ... */}
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        Un nouveau <Worldle /> sera disponible chaque jour !
+        Un nouveau <Battldle /> sera disponible chaque jour !
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div className="font-bold">À propos de la distance</div>
@@ -40,7 +40,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Worldle /> a été <span className="font-bold">fortement</span> inspiré
+        <Battldle /> a été <span className="font-bold">fortement</span> inspiré
         par{" "}
         <a
           className="underline"
