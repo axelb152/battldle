@@ -1,8 +1,4 @@
-// Source:
-// Countries with long/lat => https://developers.google.com/public-data/docs/canonical/countries_csv
-// Countries images => https://github.com/djaiss/mapsicon
-
-const countryCodesWithImage = [
+const battleCodesWithImage = [
   "ao",
   "bg",
   "bo",
@@ -133,14 +129,14 @@ const countryCodesWithImage = [
   "ye",
 ];
 
-export interface Country {
+export interface Battle {
   code: string;
   latitude: number;
   longitude: number;
   name: string;
 }
 
-export const countries: Country[] = [
+export const battles: Battle[] = [
   {
     code: "AE",
     latitude: 23.424076,
@@ -837,12 +833,12 @@ export const countries: Country[] = [
   },
 ];
 
-export const countriesWithImage = countries.filter((c) =>
-  countryCodesWithImage.includes(c.code.toLowerCase())
+export const battlesWithImage = battles.filter((c) =>
+  battleCodesWithImage.includes(c.code.toLowerCase())
 );
 
 // Source: https://fr.wikipedia.org/wiki/ISO_3166
-const frenchCountryNames: Record<string, string> = {
+const frenchBattleNames: Record<string, string> = {
   AF: "Afghanistan",
   AX: "Åland",
   AL: "Albanie",
@@ -1097,15 +1093,15 @@ const frenchCountryNames: Record<string, string> = {
   XK: "Kosovo",
 };
 
-export function getCountryName(language: string, country: Country) {
+export function getBattleName(language: string, battle: Battle) {
   if (language === "fr") {
-    return frenchCountryNames[country.code];
+    return frenchBattleNames[battle.code];
   }
-  return country.name;
+  return battle.name;
 }
 
-export function sanitizeCountryName(countryName: string): string {
-  return countryName
+export function sanitizeBattleName(battleName: string): string {
+  return battleName
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[- '()]/g, "")

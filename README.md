@@ -10,9 +10,9 @@ Make games not war: https://worldbeyondwar.org/donate/
 
 ## Original Worldle Resources used:
 
-- Countries with long/lat => https://developers.google.com/public-data/docs/canonical/countries_csv
-- Country images => https://github.com/djaiss/mapsicon
-- French country names => https://fr.wikipedia.org/wiki/ISO_3166
+- Battles with long/lat => https://developers.google.com/public-data/docs/canonical/battles_csv
+- Battle images => https://github.com/djaiss/mapsicon
+- French battle names => https://fr.wikipedia.org/wiki/ISO_3166
 
 ## Battldle Resources used:
 
@@ -37,10 +37,10 @@ Make games not war: https://worldbeyondwar.org/donate/
 
 # TODO
 
-- [x] Remove countries with no notable battles (check notion)
+- [x] Remove battles with no notable battles (check notion)
 - [x] Sort out images
 - [x] Rename UI from Worldle to Battldle (see components)
 - [x] update `guessString` function in `src/components/Share.tsx` with correct url
-- [ ] Double check array in countries, check all country codes are there
-- [ ] Check logic for reloading countries (currently per day)
+- [ ] Double check array in battles, check all battle codes are there
+- [ ] Check logic for reloading battles (currently per day)
 - [ ] Remove fr internationalization (simply update with battle translations?)
