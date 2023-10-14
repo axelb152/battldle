@@ -12,7 +12,7 @@ const resources = {
       welldone: "Well done!",
       unknownCountry: "Unknown country!",
       copy: "Copied results to clipboard",
-      showCountry: "🗺️ Show map!",
+      showBattle: "🗺️ Show battle",
       cancelRotation: "🌀 Cancel rotation",
       settings: {
         title: "Settings",
@@ -35,7 +35,7 @@ const resources = {
       welldone: "Bien joué ⚔️",
       unknownCountry: "Bataille inconnu !",
       copy: "Résultat copié !",
-      showCountry: "🗺️ Montrer la carte !",
+      showBattle: "🗺️ Montrer la bataille",
       cancelRotation: "🌀 Annule la rotation",
       settings: {
         title: "Paramètres",

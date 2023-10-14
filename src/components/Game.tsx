@@ -100,7 +100,7 @@ export function Game({ settingsData }: GameProps) {
           type="button"
           onClick={() => setHideImageMode(false)}
         >
-          {t("showCountry")}
+          {t("showBattle")}
         </button>
       )}
       <div className="my-1">
