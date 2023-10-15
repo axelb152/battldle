@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 import { InfosFr } from "./components/panels/InfosFr";
 import { Settings } from "./components/panels/Settings";
 import { useSettings } from "./hooks/useSettings";
-import { Worldle } from "./components/Worldle";
+import { Battldle } from "./components/Battldle";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -77,7 +77,7 @@ function App() {
           </header>
           <Game settingsData={settingsData} />
           <footer className="flex justify-center text-sm mt-8 mb-1">
-            ❤️ <Worldle /> ? -
+            ❤️ <Battldle /> ? -
             <a
               className="underline pl-1"
               href="https://worldle.teuteuf.fr/"
