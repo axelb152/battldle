@@ -31,12 +31,13 @@ Make games not war: https://worldbeyondwar.org/donate/
 
 # TODO
 
-- [x] Remove battles with no notable battles (check notion)
-- [x] Sort out images
+- [x] Rename countries to battles
+- [x] Remove countries with no notable battles (check notion)
+- [x] Sort out images in public folder
 - [x] Rename UI from Worldle to Battldle
 - [x] update `guessString` function in `src/components/Share.tsx` with correct url
 - [x] fix metadata
 - [x] fix share component's start date
-- [ ] Double check array in battles, check all battle codes are there
 - [x] Check logic for reloading battles (currently per day)
+- [ ] Double check array in battles, check all battle codes are there
 - [ ] Remove fr internationalization (simply update with battle translations?)
