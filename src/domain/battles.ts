@@ -502,7 +502,7 @@ export const battles: Battle[] = [
     code: "KW",
     latitude: 29.31166,
     longitude: 47.481766,
-    name: "Khafji, 1991",
+    name: "Norfolk, 1991",
   },
   {
     code: "KZ",

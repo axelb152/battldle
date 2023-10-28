@@ -39,5 +39,5 @@ Make games not war: https://worldbeyondwar.org/donate/
 - [x] fix metadata
 - [x] fix share component's start date
 - [x] Check logic for reloading battles (currently per day)
-- [ ] Double check array in battles, check all battle codes are there
+- [x] Double check array in battles, check all battle codes are there
 - [ ] Remove fr internationalization (simply update with battle translations?)
