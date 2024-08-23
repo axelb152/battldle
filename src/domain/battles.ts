@@ -793,7 +793,7 @@ export const battles: Battle[] = [
     code: "UG",
     latitude: 1.373333,
     longitude: 32.290275,
-    name: "Lukaya, 1979",
+    name: "Masaka / Katonga Bridge, 1985",
   },
   {
     code: "US",
