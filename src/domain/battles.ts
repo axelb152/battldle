@@ -58,7 +58,6 @@ const battleCodesWithImage = [
   "uy",
   "vn",
   "as",
-  "bj",
   "cl",
   "cw",
   "fr",
@@ -211,7 +210,6 @@ export const battles: Battle[] = [
     longitude: 25.48583,
     name: "Plevna, 1877",
   },
-  { code: "BJ", latitude: 9.30769, longitude: 2.315834, name: "Benin, 1897" },
   {
     code: "BN",
     latitude: 4.535277,
@@ -862,7 +860,6 @@ const frenchBattleNames: Record<string, string> = {
   BY: "Bélarus",
   BE: "Belgique",
   BZ: "Belize",
-  BJ: "Bénin",
   BM: "Bermudes",
   BT: "Bhoutan",
   BO: "Bolivie",
