@@ -46,7 +46,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             <span className="uppercase font-bold">Chacabuco, 1817</span> est à{" "}
             {formatDistance(13557000, settingsData.distanceUnit)} de la bataille
             cible, la bataille cible est en direction nord-est et vous avez
-            seulement 32% de proximité car c'est assez loin !
+            seulement 32% de proximité car c&apos;est assez loin !
           </div>
         </div>
         <div>
@@ -63,9 +63,9 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Votre deuxième essai{" "}
-            <span className="uppercase font-bold">Tali-Ihantala, 1944</span>{" "}
-            se rapproche ! {formatDistance(3206000, settingsData.distanceUnit)}{" "}
-            de distance, direction sud-est et 84% !
+            <span className="uppercase font-bold">Tali-Ihantala, 1944</span> se
+            rapproche ! {formatDistance(3206000, settingsData.distanceUnit)} de
+            distance, direction sud-est et 84% !
           </div>
         </div>
         <div>
@@ -83,7 +83,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
           <div className="my-2">
             Le prochain essai,{" "}
             <span className="uppercase font-bold">Siège de Beyrouth, 1982</span>
-            , c'est la bataille correcte. Bien joué ⚔️
+            , c&apos;est la bataille correcte. Bien joué ⚔️
           </div>
         </div>
       </div>

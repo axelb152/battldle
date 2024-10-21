@@ -11,7 +11,6 @@
     "@types/node": "^16.11.19",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
-    "caniuse-lite": "^1.0.30001546",
     "geolib": "^3.3.3",
     "i18next": "^21.6.7",
     "i18next-browser-languagedetector": "^6.1.2",
