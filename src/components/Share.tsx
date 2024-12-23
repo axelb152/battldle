@@ -53,9 +53,7 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString, "https://axelb152.github.io/battldle"].join(
-      "\n"
-    );
+    return [title, guessString, "https://www.battldle.today"].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
   return (
