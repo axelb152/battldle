@@ -41,3 +41,4 @@ Make games not war: https://worldbeyondwar.org/donate/
 - [x] Check logic for reloading battles (currently per day)
 - [x] Double check array in battles, check all battle codes are there
 - [ ] Remove fr internationalization (simply update with battle translations?)
+- [ ] Create CI/CD pipeline with basic E2E testing for deployments
